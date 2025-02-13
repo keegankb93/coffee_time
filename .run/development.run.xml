@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="development" type="CompoundRunConfigurationType">
+    <toRun name="server" type="RailsRunConfigurationType" />
+    <toRun name="vite" type="RubyRunConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
