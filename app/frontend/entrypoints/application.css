@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @source "../../views";
+
+@theme {
+  --color-iroko-50: oklch(68.946% 0.07722 66.622);
+  --color-iroko-100: oklch(66.077% 0.08458 66.077);
+  --color-iroko-200: oklch(59.117% 0.08341 65);
+  --color-iroko-300: oklch(51.559% 0.07113 65.121);
+  --color-iroko-400: oklch(43.354% 0.05835 65.245);
+  --color-iroko-500: oklch(35.12% 0.04475 65.493);
+  --color-iroko-600: oklch(22.701% 0.02404 66.119);
+
+  --color-shingle-fawn-50: oklch(76.053% 0.04843 56.393);
+  --color-shingle-fawn-100: oklch(72.873% 0.05527 56.481);
+  --color-shingle-fawn-200: oklch(66.805% 0.06925 56.383);
+  --color-shingle-fawn-300: oklch(60.218% 0.07937 54.831);
+  --color-shingle-fawn-400: oklch(52.884% 0.06739 55.046);
+  --color-shingle-fawn-500: oklch(45.393% 0.05677 55.637);
+  --color-shingle-fawn-600: oklch(34.464% 0.04005 58.243);
+  --color-shingle-fawn-700: oklch(22.494% 0.02197 53.768);
+
+  --color-tan-50: oklch(100% 0 none);
+  --color-tan-100: oklch(100% 0 none);
+  --color-tan-200: oklch(94.91% 0.01419 74.424);
+  --color-tan-300: oklch(89.539% 0.03039 73.875);
+  --color-tan-400: oklch(84.032% 0.04733 75.564);
+  --color-tan-500: oklch(78.619% 0.06382 74.619);
+  --color-tan-600: oklch(71.11% 0.08559 74.038);
+  --color-tan-700: oklch(62.534% 0.09445 72.024);
+  --color-tan-800: oklch(51.751% 0.07658 73.026);
+  --color-tan-900: oklch(40.022% 0.05668 74.07);
+  --color-tan-950: oklch(33.899% 0.04644 74.216);
+
+
+  --color-site-background: oklch(96.518% 0.02535 97.115);
+}
