@@ -36,7 +36,9 @@
         <!-- Profile dropdown -->
         <div class="relative ml-3 flex">
           <div class="px-6 border-r-gray-500 border">
-            <button type="button" class="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">Log a shot</button>
+            <%= link_to new_coffee_stat_path, class: "cursor-pointer rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50", data: { turbo_frame: :drawer } do  %>
+              Log a shot
+            <% end %>
           </div>
           <div class="px-6">
             <button type="button" class="relative flex max-w-xs items-center rounded-full bg-white text-sm focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden" id="user-menu-button" aria-expanded="false" aria-haspopup="true">

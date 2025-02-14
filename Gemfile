@@ -59,3 +59,5 @@ end
 gem "vite_rails", "~> 3.0"
 
 gem "nice_partials", "~> 0.10.1"
+
+gem "turbo-rails", "~> 2.0"
